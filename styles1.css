@@ -1,0 +1,272 @@
+
+
+/*Estilos generales*/
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout usando Flexbox */
+header {
+  background-color: #444;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgb(131, 121, 146);
+}
+
+/* Secciones */
+section {
+  padding: 2em;
+}
+
+/* Acerca de */
+.acerca {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.texto {
+  flex: 1;
+}
+
+.acerca-img {
+  flex: 1;
+  text-align: center;
+}
+
+.acerca-img img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* Proyectos */
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.proyecto {
+  background: #d7c2eb;
+  padding: 10px 15px;
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 240px;
+  box-shadow: 0 2px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.proyecto h3 {
+  color: #784c7c;
+  margin-bottom: 10px;
+}
+
+.proyecto a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #bda2d6;
+  color: #784c7c;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.proyecto a:hover {
+  background-color: #a082bb;
+}
+
+
+
+body {
+  background-color: lavender; /* fondo claro */
+  color: #b176d3;            /* texto */
+}
+
+header, footer {
+  background-color: #bda2d6;
+  color: #784c7c;
+}
+
+button {
+  background-color: #b176d3;
+  color: rgb(245, 241, 241);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+
+.bloque-destacado {
+  background-color: #e78d8d;
+  color: rgb(250, 246, 246);
+  padding: 1em;
+}
+
+.seccion-secundaria {
+  background-color: #784c7c;
+  color: rgb(255, 254, 254);
+}
+
+.acerca {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.acercademi-img {
+  width: 200px;
+      align-items: center;
+
+}
+
+.texto {
+  flex: 1;
+}
+
+.acerca-img img {
+    max-width:100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.proyecto {
+  background: #d7c2eb;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: auto;
+  min-width: 200px;
+  max-width: 240px;
+  box-shadow: 0 2px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.proyecto h3 {
+  color: #784c7c;
+  margin-bottom: 10px;
+}
+
+.proyecto {
+  color: #BE8ABF;
+}
+
+.proyecto a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #bda2d6;
+  color: #784c7c;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Formulario */
+#formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3e5f5;
+  padding: 2em;
+  border-radius: 10px;
+  margin: 2em auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(123, 101, 151, 0.2);
+}
+
+#formulario h2 {
+  color: #784c7c;
+  margin-bottom: 1em;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #784c7c;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid #cbb7dd;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #b176d3;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #9c61b6;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+/* Footer básico */
+footer {
+  background-color: #BE8ABF;
+  color: rgb(250, 248, 248);
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .acerca {
+    flex-direction: column;
+    text-align: center;
+  }
+}
